@@ -610,18 +610,14 @@ def plot_train_val_test_subplots_for(ibuc, lstm_original, lstm_persistent, var=t
         ax.legend()
     axes[-1].set_xlabel('Time')
     fig.suptitle(f'{var} — Last 20 Years | Train(15y)/Val(4y)/Test(1y)', y=0.98)
-   import os
+      import os
+    os.makedirs("plots", exist_ok=True)
+    output_path = os.path.join("plots", f"{var}_results.png")
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close()
+    print(f"✅ Plot saved to {output_path}")
 
-# Create a folder (once) to store all plots
-os.makedirs("plots", exist_ok=True)
-
-# Save figure instead of showing it
-output_path = os.path.join("plots", f"{var}_results.png")
-plt.tight_layout()
-plt.savefig(output_path, dpi=300, bbox_inches="tight")
-plt.close()
-
-print(f"✅ Plot saved to {output_path}")
 
 
 # ----------------------------

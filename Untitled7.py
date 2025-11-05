@@ -1,1 +1,659 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyMus0QBorLB4dag2MoEDRX9"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"},"widgets":{"application/vnd.jupyter.widget-state+json":{"d0f6a696d1794589bf520648b752cef3":{"model_module":"@jupyter-widgets/controls","model_name":"HBoxModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HBoxModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HBoxView","box_style":"","children":["IPY_MODEL_d1a04713d0b4419ba561c1d2b05e337d","IPY_MODEL_49fa48283fed4c588671722159fc22b4","IPY_MODEL_8a0eebadc25b40cb9238b187bdc553d2"],"layout":"IPY_MODEL_81ba05e8efe84b6a8308a27227a1b89a"}},"d1a04713d0b4419ba561c1d2b05e337d":{"model_module":"@jupyter-widgets/controls","model_name":"HTMLModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HTMLModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HTMLView","description":"","description_tooltip":null,"layout":"IPY_MODEL_3aca491c87a54bbc87d44f9974ec589f","placeholder":"​","style":"IPY_MODEL_00ff695470b6411ca93cb12baa46521e","value":"Original Training:  50%"}},"49fa48283fed4c588671722159fc22b4":{"model_module":"@jupyter-widgets/controls","model_name":"FloatProgressModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"FloatProgressModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"ProgressView","bar_style":"","description":"","description_tooltip":null,"layout":"IPY_MODEL_ab8da2681e124f84a0e30ce44f321009","max":10,"min":0,"orientation":"horizontal","style":"IPY_MODEL_4415383e7cfa4e3e80bf8c62b0c69726","value":5}},"8a0eebadc25b40cb9238b187bdc553d2":{"model_module":"@jupyter-widgets/controls","model_name":"HTMLModel","model_module_version":"1.5.0","state":{"_dom_classes":[],"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"HTMLModel","_view_count":null,"_view_module":"@jupyter-widgets/controls","_view_module_version":"1.5.0","_view_name":"HTMLView","description":"","description_tooltip":null,"layout":"IPY_MODEL_cf8473a1b88441678d989f8dacbf6ffd","placeholder":"​","style":"IPY_MODEL_aa967eb6b571469b98d47cb903e3a9d2","value":" 5/10 [16:19&lt;12:37, 151.52s/it, RMSE=0.72, loss=0.5494]"}},"81ba05e8efe84b6a8308a27227a1b89a":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"3aca491c87a54bbc87d44f9974ec589f":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"00ff695470b6411ca93cb12baa46521e":{"model_module":"@jupyter-widgets/controls","model_name":"DescriptionStyleModel","model_module_version":"1.5.0","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}},"ab8da2681e124f84a0e30ce44f321009":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"4415383e7cfa4e3e80bf8c62b0c69726":{"model_module":"@jupyter-widgets/controls","model_name":"ProgressStyleModel","model_module_version":"1.5.0","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"ProgressStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","bar_color":null,"description_width":""}},"cf8473a1b88441678d989f8dacbf6ffd":{"model_module":"@jupyter-widgets/base","model_name":"LayoutModel","model_module_version":"1.2.0","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"1.2.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"overflow_x":null,"overflow_y":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"aa967eb6b571469b98d47cb903e3a9d2":{"model_module":"@jupyter-widgets/controls","model_name":"DescriptionStyleModel","model_module_version":"1.5.0","state":{"_model_module":"@jupyter-widgets/controls","_model_module_version":"1.5.0","_model_name":"DescriptionStyleModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"1.2.0","_view_name":"StyleView","description_width":""}}}}},"cells":[{"cell_type":"code","execution_count":null,"metadata":{"colab":{"base_uri":"https://localhost:8080/","height":327,"referenced_widgets":["d0f6a696d1794589bf520648b752cef3","d1a04713d0b4419ba561c1d2b05e337d","49fa48283fed4c588671722159fc22b4","8a0eebadc25b40cb9238b187bdc553d2","81ba05e8efe84b6a8308a27227a1b89a","3aca491c87a54bbc87d44f9974ec589f","00ff695470b6411ca93cb12baa46521e","ab8da2681e124f84a0e30ce44f321009","4415383e7cfa4e3e80bf8c62b0c69726","cf8473a1b88441678d989f8dacbf6ffd","aa967eb6b571469b98d47cb903e3a9d2"]},"id":"Ppo5V-Ycp13o","outputId":"0766801b-ff6c-435e-e729-e63175cfba46"},"outputs":[{"output_type":"stream","name":"stdout","text":["LSTM model input attributes ['H_bucket', 'rA_spigot', 'rH_spigot', 'soil_depth']\n","Using CPU\n","Progress: 20% complete.\n","Progress: 40% complete.\n","Progress: 60% complete.\n","Progress: 80% complete.\n","Progress: 100% complete.\n","\n","============================================================\n","TRAINING ORIGINAL LSTM MODEL\n","============================================================\n"]},{"output_type":"display_data","data":{"text/plain":["Original Training:   0%|          | 0/10 [00:00<?, ?it/s]"],"application/vnd.jupyter.widget-view+json":{"version_major":2,"version_minor":0,"model_id":"d0f6a696d1794589bf520648b752cef3"}},"metadata":{}},{"output_type":"stream","name":"stdout","text":["Epoch 0 - Loss: 0.8946, RMSE: 0.9088\n","Epoch 1 - Loss: 0.7927, RMSE: 0.8627\n","Epoch 2 - Loss: 0.6689, RMSE: 0.7805\n","Epoch 3 - Loss: 0.6006, RMSE: 0.7487\n","Epoch 4 - Loss: 0.5494, RMSE: 0.7185\n"]}],"source":["import numpy as np\n","import pandas as pd\n","import matplotlib.pyplot as plt\n","import scipy.stats as stats\n","import torch\n","import torch.nn as nn\n","import torch.nn.functional as F\n","import torch.optim as optim\n","import torch.utils.data as data_utils\n","from torch.autograd import Variable\n","import sklearn\n","from sklearn.preprocessing import StandardScaler\n","from tqdm.notebook import trange, tqdm\n","import os\n","\n","from pyflo import system\n","from pyflo.nrcs import hydrology\n","uh484 = system.array_from_csv('distributions/scs484.csv')\n","\n","g = 1.271e8\n","time_step = 1\n","rain_probability_range = {\"None\": [0.3, 0.4],\n","                          \"Light\": [0.4, 0.5],\n","                          \"Heavy\": [0.1, 0.3]}\n","\n","threshold_precip = 0.01 # precip value boundary between \"light\" and \"heavy\"\n","max_precip = 0.25 # max amount of precip possible\n","\n","# distribution parameters\n","rain_depth_range = {\"Light\": [0.0008108, 0.0009759], \"Heavy\": [0.2341, 0.0101, 0.009250]}\n","bucket_attributes_range = {\"A_bucket\": [5e2, 2e3],\n","                           \"H_bucket\": [0.1, 0.3],\n","                           \"rA_spigot\": [0.1, 0.2], # calculations to be a function of H_bucket\n","                           \"rH_spigot\": [0.05, 0.15], # calculations to be a function of H_bucket\n","                           ### The following two parameters come from standard distributions based on real data.\n","                           # Do not change these:\n","                           \"K_infiltration\": [-13.8857, 1.1835], # location and scale of normal distribution\n","                           \"ET_parameter\": [2.2447, 9.9807e-5, 0.0016], # shape, loc, and scale of Weibull min dist\n","\n","                           \"soil_depth\": [0.3, 0.8]\n","                          }\n","bucket_attributes_list = list(bucket_attributes_range.keys())\n","bucket_attributes_list.append('A_spigot')\n","bucket_attributes_list.append('H_spigot')\n","bucket_attributes_lstm_inputs = ['H_bucket', 'rA_spigot', 'rH_spigot', 'soil_depth']\n","print(\"LSTM model input attributes\", bucket_attributes_lstm_inputs)\n","input_vars = ['precip', 'et', 'h_bucket']\n","input_vars.extend(bucket_attributes_lstm_inputs)\n","output_vars = ['q_total', 'q_overflow', 'q_spigot']\n","n_input = len(input_vars)\n","n_output = len(output_vars)\n","\n","noise = {\"pet\": 0.1, \"et\": 0.1, \"q\": 0.1, \"head\": 0.1}\n","if torch.cuda.is_available():\n","    device = torch.device(\"cuda:0\")\n","    print(\"Using CUDA device:\", torch.cuda.get_device_name(0))\n","elif torch.backends.mps.is_available():\n","    device = torch.device(\"mps\")\n","    print(\"Using Apple M3/M2/M1 (Metal) device\")\n","else:\n","    device = 'cpu'\n","    print(\"Using CPU\")\n","hidden_state_size = 128\n","num_layers = 1\n","num_epochs = 10\n","batch_size = 128\n","seq_length = 336\n","learning_rate = np.linspace(start=0.001, stop=0.0001, num=num_epochs)\n","\n","n_buckets_split = {\"train\": 20, \"val\": 10,\"test\": 1}\n","time_splits = {\"warmup\":256, \"train\": 1032, \"val\": 1032,\"test\": 1032}\n","\n","\n","num_records = time_splits[\"warmup\"] + time_splits[\"train\"] + time_splits[\"val\"] + time_splits[\"test\"] + seq_length * 3\n","n_buckets = n_buckets_split[\"train\"] + n_buckets_split[\"val\"] + n_buckets_split[\"test\"]\n","\n","def split_parameters():\n","    # create lists of bucket indices for each set based on the given bucket splits\n","    buckets_for_training = list(range(0, n_buckets_split['train'] + 1))\n","    buckets_for_val = list(range(n_buckets_split['train'] + 1,\n","                                 n_buckets_split['train'] + n_buckets_split['val'] + 1))\n","    buckets_for_test = list(range(n_buckets - n_buckets_split['test'], n_buckets))\n","\n","    # determine the time range for each set based on the given time splits\n","    train_start = time_splits[\"warmup\"] + seq_length\n","    train_end   = time_splits[\"warmup\"] + time_splits[\"train\"]\n","    val_start   = train_end + seq_length\n","    val_end     = val_start + time_splits[\"val\"]\n","    test_start  = val_end + seq_length\n","    test_end    = test_start + time_splits[\"test\"]\n","\n","    # organize the split parameters into separate lists for each set\n","    train_split_parameters = [buckets_for_training, train_start, train_end]\n","    val_split_parameters = [buckets_for_val, val_start, val_end]\n","    test_split_parameters = [buckets_for_test, test_start, test_end]\n","\n","    return [train_split_parameters, val_split_parameters, test_split_parameters]\n","\n","[[buckets_for_training, train_start, train_end],\n","[buckets_for_val, val_start, val_end],\n","[buckets_for_test, test_start, test_end]]= split_parameters()\n","\n","def setup_buckets(n_buckets):\n","    # Boundary conditions\n","    buckets = {bucket_attribute:[] for bucket_attribute in bucket_attributes_list}\n","    buckets['A_spigot'] = []\n","    buckets['H_spigot'] = []\n","    for i in range(n_buckets):\n","        for attribute in bucket_attributes_list:\n","            if attribute == 'A_bucket' or attribute == 'H_bucket' or attribute == 'rA_spigot' or attribute == 'rH_spigot' or attribute == 'soil_depth':\n","                buckets[attribute].append(np.random.uniform(bucket_attributes_range[attribute][0],\n","                                                        bucket_attributes_range[attribute][1]))\n","            if attribute == 'K_infiltration':\n","                buckets[attribute].append(np.random.normal(bucket_attributes_range[attribute][0],\n","                                                        bucket_attributes_range[attribute][1]))\n","\n","            if attribute == \"ET_parameter\":\n","                buckets[attribute].append(stats.weibull_min.rvs(bucket_attributes_range[attribute][0],\n","                                                                bucket_attributes_range[attribute][1],\n","                                                                bucket_attributes_range[attribute][2]))\n","\n","        buckets['A_spigot'].append(np.pi * (0.5 * buckets['H_bucket'][i] * buckets['rA_spigot'][i]) ** 2)\n","        buckets['H_spigot'].append(buckets['H_bucket'][i] * buckets['rH_spigot'][i])\n","\n","    # Initial conditions\n","    h_water_level = [np.random.uniform(0, buckets[\"H_bucket\"][i]) for i in range(n_buckets)]\n","    mass_overflow = [0]*n_buckets\n","\n","    return buckets, h_water_level, mass_overflow\n","\n","buckets, h_water_level, mass_overflow = setup_buckets(n_buckets)\n","\n","def pick_rain_params():\n","    buck_rain_params = [rain_depth_range,\n","                        np.random.uniform(rain_probability_range[\"None\"][0],\n","                                            rain_probability_range[\"None\"][1]),\n","                        np.random.uniform(rain_probability_range[\"Heavy\"][0],\n","                                            rain_probability_range[\"Heavy\"][1]),\n","                        np.random.uniform(rain_probability_range[\"Light\"][0],\n","                                            rain_probability_range[\"Light\"][1])\n","                 ]\n","    return buck_rain_params\n","\n","def random_rain(preceding_rain, bucket_rain_params):\n","    depth_range, no_rain_probability, light_rain_probability, heavy_rain_probability = bucket_rain_params\n","    # some percent of time we have no rain at all\n","    if np.random.uniform(0.01, 0.99) < no_rain_probability:\n","        rain = 0\n","\n","    # When we do have rain, the probability of heavy or light rain depends on the previous hour's rainfall\n","    else:\n","        rain = np.inf\n","        # If last hour was a light rainy hour, or no rain, then we are likely to have light rain this hour\n","        if preceding_rain < threshold_precip:\n","            if np.random.uniform(0.0, 1.0) < light_rain_probability:\n","                while rain < 0 or rain > threshold_precip:\n","                    rain = stats.gumbel_r.rvs(depth_range[\"Light\"][0], depth_range[\"Light\"][1])\n","            else:\n","                # But if we do have heavy rain, then it could be very heavy\n","                while rain < threshold_precip or rain > max_precip:\n","                    rain = stats.genpareto.rvs(depth_range[\"Heavy\"][0], depth_range[\"Heavy\"][1], depth_range[\"Heavy\"][2])\n","\n","        # If it was heavy rain last hour, then we might have heavy rain again this hour\n","        else:\n","            if np.random.uniform(0.0, 1.0) < heavy_rain_probability:\n","                while rain < threshold_precip or rain > max_precip:\n","                    rain = stats.genpareto.rvs(depth_range[\"Heavy\"][0], depth_range[\"Heavy\"][1], depth_range[\"Heavy\"][2])\n","            else:\n","                while rain < 0 or rain > threshold_precip:\n","                    rain = stats.gumbel_r.rvs(depth_range[\"Light\"][0], depth_range[\"Light\"][1])\n","    return rain\n","\n","in_list = {}\n","for ibuc in range(n_buckets):\n","    bucket_rain_params = pick_rain_params()\n","    in_list[ibuc] = [0]\n","    for i in range(1, num_records):\n","        in_list[ibuc].append(random_rain(in_list[ibuc][i-1], bucket_rain_params))\n","\n","def apply_unit_hydrograph(df, ibuc):\n","    \"\"\"Given a bucket‐simulation DataFrame with 'q_overflow' and 'q_spigot' (both in m/s normalized by area),\n","    compute and append a 'q_total' column by routing combined runoff through a unit hydrograph.\n","    \"\"\"\n","    # build the Basin object\n","    area_acres = buckets[\"A_bucket\"][ibuc] / 4047\n","    basin = hydrology.Basin(\n","        area       = area_acres,\n","        cn         = 83.0,\n","        tc         = 2.3,\n","        runoff_dist= uh484,\n","        peak_factor= 1\n","    )\n","\n","    # prepare cumulative‐inch input\n","    n = len(df)\n","    q_in = np.zeros((n, 2))\n","    cum_inches = 0.0\n","    for i in range(n):\n","        cum_inches += (df.loc[i,'q_overflow'] + df.loc[i,'q_spigot']) * 39.3701\n","        q_in[i] = (i, cum_inches)\n","\n","    # run UH\n","    full = basin.flood_hydrograph(q_in, interval=1)[:,1]\n","\n","    # trim or pad to match df length\n","    if len(full) >= n:\n","        out = full[:n]\n","    else:\n","        out = np.pad(full, (0, n-len(full)), 'constant')\n","\n","    # convert back to m per time step, normalized by area\n","    df['q_total'] = out / 35.315 / buckets[\"A_bucket\"][ibuc] * 3600\n","\n","    return df\n","\n","def run_bucket_simulation(ibuc):\n","    columns = ['precip', 'et', 'infiltration', 'h_bucket', 'q_overflow', 'q_spigot', 'q_total']\n","    columns.extend(bucket_attributes_list)\n","    # Memory to store model results\n","    df = pd.DataFrame(index=list(range(len(in_list[ibuc]))), columns=columns)\n","\n","    # Main loop through time\n","    for t, precip_in in enumerate(in_list[ibuc]):\n","\n","        # Add the input mass to the bucket\n","        h_water_level[ibuc] = h_water_level[ibuc] + precip_in\n","\n","        # Lose mass out of the bucket. Some periodic type loss, evaporation, and some infiltration...\n","\n","        # ET (m/s) is the value at each time step taking diurnal fluctuations into account. The definite integral of the following function\n","        # (excluding noise) from 0 to 24 is equal to ET_parameter, which is measured in m/day.\n","        et = np.max([0, ((1/7.6394)* buckets[\"ET_parameter\"][ibuc]) * np.sin((np.pi / 12)*t) * np.random.normal(1, noise['pet'])])\n","\n","        k = 10 ** buckets['K_infiltration'][ibuc]\n","        L = buckets['soil_depth'][ibuc]\n","\n","        # Calculate infiltration using Darcy's Law: Q = (k * ρ * g * A * Δh) / (μ * L) → infiltration = Q / A\n","        # Final form: infiltration = (k * ρ * g * Δh) / (μ * L), with Δh = soil depth + water level height\n","        delta_h = h_water_level[ibuc] + L\n","        infiltration = k * delta_h / L\n","\n","        h_water_level[ibuc] = np.max([0 , (h_water_level[ibuc] - et)])\n","        h_water_level[ibuc] = np.max([0 , (h_water_level[ibuc] - infiltration)])\n","        h_water_level[ibuc] = h_water_level[ibuc] * np.random.normal(1, noise['et'])\n","\n","        # Overflow if the bucket is too full\n","        if h_water_level[ibuc] > buckets[\"H_bucket\"][ibuc]:\n","            mass_overflow[ibuc] = h_water_level[ibuc] - buckets[\"H_bucket\"][ibuc]\n","            h_water_level[ibuc] = buckets[\"H_bucket\"][ibuc]\n","            h_water_level[ibuc] = h_water_level[ibuc] - np.random.uniform(0, noise['q'])\n","\n","        # Calculate head on the spigot\n","        h_head_over_spigot = (h_water_level[ibuc] - buckets[\"H_spigot\"][ibuc] )\n","        h_head_over_spigot = h_head_over_spigot * np.random.normal(1, noise['head'])\n","\n","        # Calculate water leaving bucket through spigot\n","        if h_head_over_spigot > 0:\n","            velocity_out = np.sqrt(2 * g * h_head_over_spigot)\n","            spigot_out_volume = velocity_out *  buckets[\"A_spigot\"][ibuc] * time_step\n","\n","            # prevents spigot from draining water below H_spigot\n","            spigot_out = np.min([spigot_out_volume / buckets[\"A_bucket\"][ibuc], h_head_over_spigot])\n","            h_water_level[ibuc] -= spigot_out\n","        else:\n","            spigot_out = 0\n","\n","        # Save the data in time series\n","        df.loc[t,'precip'] = precip_in\n","        df.loc[t,'et'] = et\n","        df.loc[t,'infiltration'] = infiltration\n","        df.loc[t,'h_bucket'] = h_water_level[ibuc]\n","        df.loc[t,'q_overflow'] = mass_overflow[ibuc]\n","        df.loc[t,'q_spigot'] = spigot_out\n","        for attribute in bucket_attributes_list:\n","            df.loc[t, attribute] = buckets[attribute][ibuc]\n","\n","        mass_overflow[ibuc] = 0\n","\n","    # --- route through unit hydrograph ---\n","    df = apply_unit_hydrograph(df, ibuc)\n","\n","    # ---- mass tracking columns ----\n","    # all in meters of water per time step, per unit area\n","    df['cum_precip']   = df['precip'].cumsum()\n","    df['cum_et']       = df['et'].cumsum()\n","    df['cum_inf']      = df['infiltration'].cumsum()\n","    df['cum_runoff']   = df['q_overflow'].cumsum() + df['q_spigot'].cumsum()\n","    df['storage']      = df['h_bucket']\n","    df['mass_out_tot'] = df['cum_et'] + df['cum_inf'] + df['cum_runoff'] + df['storage']\n","    df['residual_frac']= (df['cum_precip'] - df['mass_out_tot']) / df['cum_precip']\n","    # --------------------------------\n","\n","    return df\n","\n","bucket_dictionary = {}\n","\n","# Define the progress milestones\n","milestones = [0.2, 0.4, 0.6, 0.8, 1.0]\n","n_buckets_completed = 0  # Counter for completed buckets\n","\n","for ibuc in range(n_buckets):\n","    bucket_dictionary[ibuc] = run_bucket_simulation(ibuc)\n","\n","    # Increment the completed bucket counter\n","    n_buckets_completed += 1\n","\n","    # Calculate the current progress as a fraction\n","    progress = n_buckets_completed / n_buckets\n","\n","    # Check if we have reached any of the milestones\n","    for milestone in milestones:\n","        if progress >= milestone:\n","            print(f\"Progress: {int(milestone * 100)}% complete.\")\n","            milestones.remove(milestone)  # Remove the milestone once it is reached\n","            break  # To avoid printing multiple milestones at once\n","\n","# =========================================\n","# MODIFIED LSTM CLASS WITH PERSISTENT STATE\n","# =========================================\n","class PersistentLSTM(nn.Module):\n","    def __init__(self, num_classes, input_size, hidden_size, num_layers, batch_size, seq_length):\n","        super(PersistentLSTM, self).__init__()\n","        self.num_classes = num_classes\n","        self.num_layers = num_layers\n","        self.input_size = input_size\n","        self.hidden_size = hidden_size\n","        self.seq_length = seq_length\n","        self.batch_size = batch_size\n","\n","        self.lstm = nn.LSTM(input_size=input_size, hidden_size=hidden_size,\n","                           num_layers=num_layers, batch_first=True)\n","        self.relu = nn.ReLU()\n","        self.fc_1 = nn.Linear(hidden_size, num_classes)\n","        self.hidden = None\n","\n","    def forward(self, x, init_states=None):\n","        if init_states is not None:\n","            self.hidden = init_states\n","\n","        out, self.hidden = self.lstm(x, self.hidden)\n","        out = self.relu(out)\n","        prediction = self.fc_1(out)\n","        prediction = self.relu(prediction)\n","        return prediction\n","\n","    def init_hidden(self, batch_size=1, device='cpu'):\n","        self.hidden = (\n","            torch.zeros(self.num_layers, batch_size, self.hidden_size).to(device),\n","            torch.zeros(self.num_layers, batch_size, self.hidden_size).to(device)\n","        )\n","\n","    def detach_hidden(self):\n","        if self.hidden is not None:\n","            self.hidden = tuple(h.detach() for h in self.hidden)\n","\n","    def save_hidden(self, filename):\n","        if self.hidden is not None:\n","            torch.save(self.hidden, filename)\n","\n","    def load_hidden(self, filename):\n","        if os.path.exists(filename):\n","            self.hidden = torch.load(filename, map_location=device)\n","        else:\n","            self.init_hidden(device=device)\n","\n","# Original LSTM class (for comparison)\n","class LSTM1(nn.Module):\n","    def __init__(self, num_classes, input_size, hidden_size, num_layers, batch_size, seq_length):\n","        super(LSTM1, self).__init__()\n","        self.num_classes = num_classes\n","        self.num_layers = num_layers\n","        self.input_size = input_size\n","        self.hidden_size = hidden_size\n","        self.seq_length = seq_length\n","        self.batch_size = batch_size\n","\n","        self.lstm = nn.LSTM(input_size=input_size, hidden_size=hidden_size, batch_first=True)\n","        self.relu = nn.ReLU()\n","        self.fc_1 = nn.Linear(hidden_size, num_classes)\n","\n","    def forward(self, x, init_states=None):\n","        if init_states is None:\n","            h_t = Variable(torch.zeros(1, x.size(0), self.hidden_size, device=x.device))\n","            c_t = Variable(torch.zeros(1, x.size(0), self.hidden_size, device=x.device))\n","            init_states = (h_t, c_t)\n","\n","        out, _ = self.lstm(x, init_states)\n","        out = self.relu(out)\n","        prediction = self.fc_1(out)\n","        prediction = self.relu(prediction)\n","        return prediction\n","\n","# =========================================\n","# MODIFIED TRAINING FUNCTIONS\n","# =========================================\n","def train_original_model(lstm, train_loader, buckets_for_training):\n","    \"\"\"Original training approach with state reset each batch\"\"\"\n","    criterion = nn.MSELoss()\n","    optimizer = optim.Adam(lstm.parameters(), lr=learning_rate[0])\n","    epoch_bar = tqdm(range(num_epochs), desc=\"Original Training\", position=0, total=num_epochs)\n","    results = {ibuc: {\"loss\": [], \"RMSE\": []} for ibuc in buckets_for_training}\n","\n","    for epoch in epoch_bar:\n","        epoch_loss = 0\n","        epoch_rmse = 0\n","        batch_count = 0\n","\n","        for ibuc in buckets_for_training:\n","            batch_bar = tqdm(\n","                train_loader[ibuc],\n","                desc=f\"Bucket: {ibuc}, Epoch: {epoch}\",\n","                position=1, leave=False, disable=True\n","            )\n","\n","            for data, targets in batch_bar:\n","                data, targets = data.to(device), targets.to(device)\n","                optimizer.zero_grad()\n","\n","                out = lstm(data)\n","                preds = out[:, -1:, :]  # last timestep\n","                true = targets[:, -1:, :]\n","                loss = criterion(preds, true)\n","                loss.backward()\n","                optimizer.step()\n","\n","                epoch_loss += loss.item()\n","                epoch_rmse += loss.sqrt().item()\n","                batch_count += 1\n","\n","                batch_bar.set_postfix(\n","                    loss=f\"{loss.item():.4f}\",\n","                    RMSE=f\"{loss.sqrt().item():.2f}\"\n","                )\n","\n","        avg_loss = epoch_loss / batch_count\n","        avg_rmse = epoch_rmse / batch_count\n","\n","        # Store results for all buckets (simplified)\n","        for ibuc in buckets_for_training:\n","            results[ibuc][\"loss\"].append(avg_loss)\n","            results[ibuc][\"RMSE\"].append(avg_rmse)\n","\n","        epoch_bar.set_postfix(\n","            loss=f\"{avg_loss:.4f}\",\n","            RMSE=f\"{avg_rmse:.2f}\"\n","        )\n","        print(f\"Epoch {epoch} - Loss: {avg_loss:.4f}, RMSE: {avg_rmse:.4f}\")\n","\n","    return lstm, results\n","\n","\n","\n","def train_persistent_model(model, train_loader, buckets_for_training):\n","    \"\"\"TRUE persistent training - state continues across ALL batches and ALL buckets\"\"\"\n","    model.to(device)\n","    optimizer = optim.Adam(model.parameters(), lr=learning_rate[0])\n","    criterion = nn.MSELoss()\n","\n","    epoch_bar = tqdm(range(num_epochs), desc=\"True Persistent Training\", position=0, total=num_epochs)\n","    results = {ibuc: {\"loss\": [], \"RMSE\": []} for ibuc in buckets_for_training}\n","\n","    for epoch in range(num_epochs):\n","        #  Initialize hidden state ONLY ONCE at start of epoch\n","        model.init_hidden(batch_size=batch_size, device=device)\n","\n","        epoch_loss = 0\n","        epoch_rmse = 0\n","        batch_count = 0\n","\n","        # Process ALL buckets in sequence with CONTINUOUS state\n","        for ibuc in buckets_for_training:\n","            for data, targets in train_loader[ibuc]:\n","                data, targets = data.to(device), targets.to(device)\n","                optimizer.zero_grad()\n","\n","                #  Hidden state automatically carries over from previous batch!\n","                out = model(data)\n","\n","                preds = out[:, -1:, :]\n","                true = targets[:, -1:, :]\n","                loss = criterion(preds, true)\n","                loss.backward()\n","                optimizer.step()\n","\n","                epoch_loss += loss.item()\n","                epoch_rmse += loss.sqrt().item()\n","                batch_count += 1\n","\n","                #  Detach to break computation graph, but PRESERVE state for next batch\n","                model.detach_hidden()\n","\n","        avg_loss = epoch_loss / batch_count\n","        avg_rmse = epoch_rmse / batch_count\n","\n","        for ibuc in buckets_for_training:\n","            results[ibuc][\"loss\"].append(avg_loss)\n","            results[ibuc][\"RMSE\"].append(avg_rmse)\n","\n","        epoch_bar.set_postfix(\n","            loss=f\"{avg_loss:.4f}\",\n","            RMSE=f\"{avg_rmse:.2f}\"\n","        )\n","        print(f\"Epoch {epoch} - Loss: {avg_loss:.4f}, RMSE: {avg_rmse:.4f}\")\n","\n","    return model, results\n","\n","# =========================================\n","# MODIFIED EVALUATION FUNCTIONS\n","# =========================================\n","def check_validation_period_comparison(lstm_original, lstm_persistent, np_val_seq_X, ibuc, n_plot=100):\n","    \"\"\"Compare both models on validation period\"\"\"\n","\n","    def __make_prediction(lstm_model, model_type=\"original\"):\n","        if model_type == \"persistent\":\n","            lstm_model.init_hidden(batch_size=1, device=device)\n","\n","        lstm_output_val = lstm_model(torch.Tensor(np_val_seq_X[ibuc]).to(device=device))\n","        val_predictions = {var: [] for var in output_vars}\n","\n","        for i in range(lstm_output_val.shape[0]):\n","            for j, var in enumerate(output_vars):\n","                val_predictions[var].append((lstm_output_val[i, -1, j].cpu().detach().numpy() * \\\n","                                             np.std(df.loc[train_start:train_end, var])) + \\\n","                                            np.mean(df.loc[train_start:train_end, var]))\n","        return val_predictions\n","\n","    def __compute_nse(val_predictions):\n","        nse_values = {}\n","        for var in output_vars:\n","            actual_values = df.loc[val_start:val_end, var]\n","            mean_actual = np.mean(actual_values)\n","            pred_variance = 0\n","            obs_variance = 0\n","\n","            for i, pred in enumerate(val_predictions[var]):\n","                t = i + seq_length - 1\n","                pred_variance += np.power((pred - actual_values.values[t]), 2)\n","                obs_variance += np.power((mean_actual - actual_values.values[t]), 2)\n","\n","            nse_values[var] = np.round(1 - (pred_variance / obs_variance), 4)\n","        return nse_values\n","\n","    df = bucket_dictionary[ibuc]\n","\n","    # Get predictions from both models\n","    original_predictions = __make_prediction(lstm_original, \"original\")\n","    persistent_predictions = __make_prediction(lstm_persistent, \"persistent\")\n","\n","    # Compute NSE for both models\n","    original_nse = __compute_nse(original_predictions)\n","    persistent_nse = __compute_nse(persistent_predictions)\n","\n","    print(f\"\\n=== COMPARISON FOR BUCKET {ibuc} ===\")\n","    print(\"Nash-Sutcliffe Efficiency (NSE):\")\n","    for var in output_vars:\n","        print(f\"  {var}:\")\n","        print(f\"    Original:    {original_nse[var]}\")\n","        print(f\"    Persistent:  {persistent_nse[var]}\")\n","        print(f\"    Difference:  {persistent_nse[var] - original_nse[var]:.4f}\")\n","\n","    # Plot comparisons\n","    fig, axes = plt.subplots(len(output_vars), 1, figsize=(15, 5*len(output_vars)))\n","    if len(output_vars) == 1:\n","        axes = [axes]\n","\n","    for ax, var in zip(axes, output_vars):\n","        obs_start = val_start + seq_length\n","        obs_end = obs_start + n_plot - 1\n","\n","        actual_values = df.loc[obs_start:obs_end, var].values\n","        ax.plot(actual_values, 'k-', label='Actual', linewidth=2, alpha=0.8)\n","        ax.plot(original_predictions[var][:n_plot], 'r--', label='Original LSTM', alpha=0.8)\n","        ax.plot(persistent_predictions[var][:n_plot], 'b--', label='Persistent LSTM', alpha=0.8)\n","\n","        ax.set_title(f'{var} - Prediction Comparison\\n'\n","                    f'Original NSE: {original_nse[var]}, Persistent NSE: {persistent_nse[var]}')\n","        ax.set_xlabel('Time Step')\n","        ax.set_ylabel(var)\n","        ax.legend()\n","        ax.grid(True, alpha=0.3)\n","\n","    plt.tight_layout()\n","    plt.show()\n","\n","    return original_nse, persistent_nse\n","\n","def compare_learning_curves(original_results, persistent_results, buckets_for_training):\n","    \"\"\"Compare learning curves of both approaches\"\"\"\n","    # Original model metrics\n","    orig_losses = np.stack([original_results[b]['loss'] for b in buckets_for_training])\n","    orig_rmses = np.stack([original_results[b]['RMSE'] for b in buckets_for_training])\n","\n","    # Persistent model metrics\n","    persist_losses = np.stack([persistent_results[b]['loss'] for b in buckets_for_training])\n","    persist_rmses = np.stack([persistent_results[b]['RMSE'] for b in buckets_for_training])\n","\n","    epochs = np.arange(orig_losses.shape[1])\n","\n","    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))\n","\n","    # Loss comparison\n","    ax1.plot(epochs, orig_losses.mean(axis=0), 'r-', label='Original LSTM', linewidth=2)\n","    ax1.plot(epochs, persist_losses.mean(axis=0), 'b-', label='Persistent LSTM', linewidth=2)\n","    ax1.fill_between(epochs,\n","                    np.percentile(orig_losses, 25, axis=0),\n","                    np.percentile(orig_losses, 75, axis=0),\n","                    color='red', alpha=0.2)\n","    ax1.fill_between(epochs,\n","                    np.percentile(persist_losses, 25, axis=0),\n","                    np.percentile(persist_losses, 75, axis=0),\n","                    color='blue', alpha=0.2)\n","    ax1.set_xlabel('Epoch')\n","    ax1.set_ylabel('Loss')\n","    ax1.set_title('Training Loss Comparison')\n","    ax1.legend()\n","    ax1.grid(True, alpha=0.3)\n","\n","    # RMSE comparison\n","    ax2.plot(epochs, orig_rmses.mean(axis=0), 'r-', label='Original LSTM', linewidth=2)\n","    ax2.plot(epochs, persist_rmses.mean(axis=0), 'b-', label='Persistent LSTM', linewidth=2)\n","    ax2.fill_between(epochs,\n","                    np.percentile(orig_rmses, 25, axis=0),\n","                    np.percentile(orig_rmses, 75, axis=0),\n","                    color='red', alpha=0.2)\n","    ax2.fill_between(epochs,\n","                    np.percentile(persist_rmses, 25, axis=0),\n","                    np.percentile(persist_rmses, 75, axis=0),\n","                    color='blue', alpha=0.2)\n","    ax2.set_xlabel('Epoch')\n","    ax2.set_ylabel('RMSE')\n","    ax2.set_title('Training RMSE Comparison')\n","    ax2.legend()\n","    ax2.grid(True, alpha=0.3)\n","\n","    plt.tight_layout()\n","    plt.show()\n","\n","    # Print final performance comparison\n","    print(\"\\n=== FINAL PERFORMANCE COMPARISON ===\")\n","    print(f\"Original LSTM - Final Loss: {orig_losses.mean(axis=0)[-1]:.4f}, Final RMSE: {orig_rmses.mean(axis=0)[-1]:.4f}\")\n","    print(f\"Persistent LSTM - Final Loss: {persist_losses.mean(axis=0)[-1]:.4f}, Final RMSE: {persist_rmses.mean(axis=0)[-1]:.4f}\")\n","\n","    loss_improvement = ((orig_losses.mean(axis=0)[-1] - persist_losses.mean(axis=0)[-1]) / orig_losses.mean(axis=0)[-1]) * 100\n","    rmse_improvement = ((orig_rmses.mean(axis=0)[-1] - persist_rmses.mean(axis=0)[-1]) / orig_rmses.mean(axis=0)[-1]) * 100\n","\n","    print(f\"Loss Improvement: {loss_improvement:+.2f}%\")\n","    print(f\"RMSE Improvement: {rmse_improvement:+.2f}%\")\n","\n","# =========================================\n","# MAIN EXECUTION WITH BOTH APPROACHES\n","# =========================================\n","torch.manual_seed(1)\n","\n","# Initialize both models\n","lstm_original = LSTM1(num_classes=n_output,\n","                     input_size=n_input,\n","                     hidden_size=hidden_state_size,\n","                     num_layers=num_layers,\n","                     batch_size=batch_size,\n","                     seq_length=seq_length).to(device=device)\n","\n","lstm_persistent = PersistentLSTM(num_classes=n_output,\n","                               input_size=n_input,\n","                               hidden_size=hidden_state_size,\n","                               num_layers=num_layers,\n","                               batch_size=batch_size,\n","                               seq_length=seq_length).to(device=device)\n","\n","# Fit scalers\n","def fit_scaler():\n","    frames = [bucket_dictionary[ibuc].loc[train_start:train_end, input_vars] for ibuc in buckets_for_training]\n","    df_in = pd.concat(frames)\n","    scaler_in = StandardScaler()\n","    _ = scaler_in.fit_transform(df_in)\n","\n","    frames = [bucket_dictionary[ibuc].loc[train_start:train_end, output_vars] for ibuc in buckets_for_training]\n","    df_out = pd.concat(frames)\n","    scaler_out = StandardScaler()\n","    _ = scaler_out.fit_transform(df_out)\n","    return scaler_in, scaler_out\n","\n","scaler_in, scaler_out = fit_scaler()\n","\n","# Create data loaders\n","k_preds = 1\n","\n","def make_data_loader(start, end, bucket_list):\n","    loader = {}\n","    np_seq_X = {}\n","    np_seq_y = {}\n","\n","    for ibuc in bucket_list:\n","        df = bucket_dictionary[ibuc]\n","        # scale inputs and outputs\n","        Xin = scaler_in.transform(df.loc[start:end, input_vars])\n","        Yin = scaler_out.transform(df.loc[start:end, output_vars])\n","\n","        # number of samples: full window length = seq_length + k_preds\n","        n_total = Xin.shape[0]\n","        n_samples = n_total - seq_length + 1\n","\n","        # allocate arrays: inputs always seq_length, outputs now seq_length as before\n","        X = np.zeros((n_samples, seq_length, n_input))\n","        Y = np.zeros((n_samples, seq_length, n_output))\n","\n","        for i in range(n_samples):\n","            t0 = i + seq_length\n","            X[i] = Xin[i:t0]\n","            Y[i] = Yin[i:t0]\n","\n","        np_seq_X[ibuc] = X\n","        np_seq_y[ibuc] = Y\n","\n","        ds = torch.utils.data.TensorDataset(\n","            torch.Tensor(X),\n","            torch.Tensor(Y)\n","        )\n","        loader[ibuc] = torch.utils.data.DataLoader(ds, batch_size=batch_size, shuffle=True)\n","\n","    return loader, np_seq_X, np_seq_y\n","\n","train_loader, np_train_seq_X, np_train_seq_y = make_data_loader(train_start, train_end, buckets_for_training)\n","val_loader, np_val_seq_X, np_val_seq_y = make_data_loader(val_start, val_end, buckets_for_val)\n","test_loader, np_test_seq_X, np_test_seq_y = make_data_loader(test_start, test_end, buckets_for_test)\n","\n","print(\"\\n\" + \"=\"*60)\n","print(\"TRAINING ORIGINAL LSTM MODEL\")\n","print(\"=\"*60)\n","lstm_original, original_results = train_original_model(lstm_original, train_loader, buckets_for_training)\n","\n","print(\"\\n\" + \"=\"*60)\n","print(\"TRAINING PERSISTENT LSTM MODEL\")\n","print(\"=\"*60)\n","lstm_persistent, persistent_results = train_persistent_model(lstm_persistent, train_loader, buckets_for_training)\n","\n","# Compare learning curves\n","print(\"\\n\" + \"=\"*60)\n","print(\"COMPARING LEARNING CURVES\")\n","print(\"=\"*60)\n","compare_learning_curves(original_results, persistent_results, buckets_for_training)\n","\n","# Compare validation performance\n","print(\"\\n\" + \"=\"*60)\n","print(\"COMPARING VALIDATION PERFORMANCE\")\n","print(\"=\"*60)\n","all_original_nse = []\n","all_persistent_nse = []\n","\n","for ibuc in buckets_for_val[:3]:  # Compare on first 3 validation buckets\n","    original_nse, persistent_nse = check_validation_period_comparison(\n","        lstm_original, lstm_persistent, np_val_seq_X, ibuc\n","    )\n","    all_original_nse.append(original_nse)\n","    all_persistent_nse.append(persistent_nse)\n","\n","# Final summary\n","print(\"\\n\" + \"=\"*60)\n","print(\"FINAL SUMMARY\")\n","print(\"=\"*60)\n","print(\"Average NSE across validation buckets:\")\n","for var in output_vars:\n","    orig_avg = np.mean([nse[var] for nse in all_original_nse])\n","    persist_avg = np.mean([nse[var] for nse in all_persistent_nse])\n","    improvement = persist_avg - orig_avg\n","    print(f\"{var}:\")\n","    print(f\"  Original:    {orig_avg:.4f}\")\n","    print(f\"  Persistent:  {persist_avg:.4f}\")\n","    print(f\"  Improvement: {improvement:+.4f} ({improvement/orig_avg*100:+.1f}%)\")"]},{"cell_type":"code","metadata":{"id":"3979eab4"},"source":["!pip install pyflo"],"execution_count":null,"outputs":[]},{"cell_type":"code","metadata":{"colab":{"base_uri":"https://localhost:8080/","height":581},"id":"e36b4b9f","executionInfo":{"status":"ok","timestamp":1761010951224,"user_tz":300,"elapsed":13803,"user":{"displayName":"Majid Hussain Shah 951-FBAS/MSMA/F23","userId":"05397425731334918871"}},"outputId":"684d7ce8-6b6d-4b41-ebc0-6e1591958dfc"},"source":["!pip install pyflo"],"execution_count":2,"outputs":[{"output_type":"stream","name":"stdout","text":["Collecting pyflo\n","  Downloading pyflo-0.3.3.tar.gz (56 kB)\n","\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/56.6 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m56.6/56.6 kB\u001b[0m \u001b[31m2.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n","\u001b[?25h  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\n","Requirement already satisfied: cycler in /usr/local/lib/python3.12/dist-packages (from pyflo) (0.12.1)\n","Requirement already satisfied: matplotlib in /usr/local/lib/python3.12/dist-packages (from pyflo) (3.10.0)\n","Requirement already satisfied: numpy in /usr/local/lib/python3.12/dist-packages (from pyflo) (2.0.2)\n","Requirement already satisfied: pyparsing in /usr/local/lib/python3.12/dist-packages (from pyflo) (3.2.5)\n","Requirement already satisfied: python-dateutil in /usr/local/lib/python3.12/dist-packages (from pyflo) (2.9.0.post0)\n","Requirement already satisfied: pytz in /usr/local/lib/python3.12/dist-packages (from pyflo) (2025.2)\n","Requirement already satisfied: scipy in /usr/local/lib/python3.12/dist-packages (from pyflo) (1.16.2)\n","Collecting simpleeval (from pyflo)\n","  Downloading simpleeval-1.0.3-py3-none-any.whl.metadata (17 kB)\n","Requirement already satisfied: six in /usr/local/lib/python3.12/dist-packages (from pyflo) (1.17.0)\n","Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.12/dist-packages (from matplotlib->pyflo) (1.3.3)\n","Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.12/dist-packages (from matplotlib->pyflo) (4.60.1)\n","Requirement already satisfied: kiwisolver>=1.3.1 in /usr/local/lib/python3.12/dist-packages (from matplotlib->pyflo) (1.4.9)\n","Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.12/dist-packages (from matplotlib->pyflo) (25.0)\n","Requirement already satisfied: pillow>=8 in /usr/local/lib/python3.12/dist-packages (from matplotlib->pyflo) (11.3.0)\n","Downloading simpleeval-1.0.3-py3-none-any.whl (15 kB)\n","Building wheels for collected packages: pyflo\n","  Building wheel for pyflo (setup.py) ... \u001b[?25l\u001b[?25hdone\n","  Created wheel for pyflo: filename=pyflo-0.3.3-py3-none-any.whl size=72000 sha256=a60f92572fe5c82aaf64b2f80257fce92d1d176fc268c39912662b454f5a0881\n","  Stored in directory: /root/.cache/pip/wheels/c8/84/50/03b761d910bd63f2db47288e50729c9bf30b12f870b297dcda\n","Successfully built pyflo\n","Installing collected packages: simpleeval, pyflo\n","Successfully installed pyflo-0.3.3 simpleeval-1.0.3\n"]},{"output_type":"display_data","data":{"application/vnd.colab-display-data+json":{"pip_warning":{"packages":["site"]},"id":"f8b90fb261da4830ba8baa8266705a90"}},"metadata":{}}]}]}
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from sklearn.preprocessing import StandardScaler
+from torch.utils.data import TensorDataset, DataLoader, Sampler
+
+# ----------------------------
+# Device
+# ----------------------------
+if torch.cuda.is_available():
+    device = torch.device("cuda:0")
+    print("Using CUDA:", torch.cuda.get_device_name(0))
+elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+    device = torch.device("mps")
+    print("Using Apple Silicon (Metal)")
+else:
+    device = torch.device("cpu")
+    print("Using CPU")
+
+# ============================================================
+# REAL CAMELS HOURLY DATA
+# ============================================================
+
+# CAMELS NLDAS input feature columns (exclude 'date')
+camels_input_cols = [
+    "convective_fraction",
+    "longwave_radiation",
+    "potential_energy",
+    "potential_evaporation",
+    "pressure",
+    "shortwave_radiation",
+    "specific_humidity",
+    "temperature",
+    "total_precipitation",
+    "wind_u",
+    "wind_v",
+]
+# USGS/CAMELS target column
+target_col = "QObs_CAMELS(mm/h)"
+
+def load_camels_hourly(input_csv, output_csv):
+    df_x = pd.read_csv(input_csv)
+    df_y = pd.read_csv(output_csv)
+    df_x["date"] = pd.to_datetime(df_x["date"])
+    df_y["date"] = pd.to_datetime(df_y["date"])
+    df_x = df_x[["date"] + camels_input_cols]
+    df_y = df_y["date"].to_frame().join(df_y[target_col])
+    df = (pd.merge(df_x, df_y, on="date", how="inner")
+            .dropna(subset=camels_input_cols + [target_col])
+            .sort_values("date")
+            .reset_index(drop=True))
+    df.index = np.arange(len(df))
+    return df
+
+# ---- MULTI-BASIN: define 3 basins (fill the XXX/YYY ids you have) ----
+BASINS = [
+    dict(ibuc=0,
+         X="CAMELS_data_sample/hourly/nldas_hourly/01333000_hourly_nldas.csv",
+         Y="CAMELS_data_sample/hourly/usgs-streamflow/01333000-usgs-hourly.csv"),
+    dict(ibuc=1,
+         X="CAMELS_data_sample/hourly/nldas_hourly/01423000_hourly_nldas.csv",
+         Y="CAMELS_data_sample/hourly/usgs-streamflow/01423000-usgs-hourly.csv"),
+    dict(ibuc=2,
+         X="CAMELS_data_sample/hourly/nldas_hourly/02046000_hourly_nldas.csv",
+         Y="CAMELS_data_sample/hourly/usgs-streamflow/02046000-usgs-hourly.csv"),
+]
+
+bucket_dictionary = {}
+for b in BASINS:
+    bucket_dictionary[b["ibuc"]] = load_camels_hourly(b["X"], b["Y"])
+
+# ----------------------------
+# Globals / Params
+# ----------------------------
+input_vars  = camels_input_cols
+output_vars = [target_col]
+n_input  = len(input_vars)
+n_output = len(output_vars)
+
+hidden_state_size = 64
+num_layers = 2
+num_epochs = 18
+batch_size_stateless = 64
+seq_length = 64
+batch_size_persistent = seq_length     # important for one-pred-per-time in persistent
+learning_rate = np.array([1e-3]*6 + [5e-4]*6 + [1e-4]*6)
+k_preds = 1
+DROPOUT_P = 0.3                        # dropout probability (try 0.2–0.4)
+
+# ============================================================
+# USE ONLY LAST 20 YEARS, THEN 15y/4y/1y SPLIT (by timestamps)
+# ============================================================
+YEARS_BACK = 20
+TRAIN_YEARS, VAL_YEARS, TEST_YEARS = 15, 4, 1
+
+def restrict_to_last_years(df, years_back=5):
+    end_date = df["date"].max()
+    start_date = end_date - pd.DateOffset(years=years_back)
+    df2 = df[df["date"] >= start_date].copy().reset_index(drop=True)
+    df2.index = np.arange(len(df2))
+    if len(df2) < seq_length * 4:
+        raise ValueError(f"Not enough rows after {years_back}y restriction: {len(df2)}")
+    return df2
+
+for ibuc in bucket_dictionary:
+    bucket_dictionary[ibuc] = restrict_to_last_years(bucket_dictionary[ibuc], years_back=YEARS_BACK)
+
+def compute_date_splits(df, train_years=15, val_years=4, test_years=1, seq_length=64):
+    """Return inclusive index boundaries for train/val/test (df already last-N years)."""
+    end_date = df["date"].max()
+    test_start_date  = end_date - pd.DateOffset(years=test_years)
+    val_start_date   = test_start_date - pd.DateOffset(years=val_years)
+    train_start_date = val_start_date  - pd.DateOffset(years=train_years)
+    train_start_date = max(train_start_date, df["date"].min())
+
+    i_train_start = int(df["date"].searchsorted(train_start_date, side="left"))
+    i_val_start   = int(df["date"].searchsorted(val_start_date,   side="left"))
+    i_test_start  = int(df["date"].searchsorted(test_start_date,  side="left"))
+    i_end         = len(df) - 1
+
+    assert (i_val_start - i_train_start) >= seq_length, "Train slice too short for seq_length"
+    assert (i_test_start - i_val_start)  >= seq_length, "Val slice too short for seq_length"
+    assert (i_end + 1 - i_test_start)    >= seq_length, "Test slice too short for seq_length"
+
+    return {
+        "train": (i_train_start, i_val_start - 1),
+        "val":   (i_val_start,   i_test_start - 1),
+        "test":  (i_test_start,  i_end)
+    }
+
+# per-basin splits
+date_splits = {}
+for ibuc in bucket_dictionary:
+    date_splits[ibuc] = compute_date_splits(bucket_dictionary[ibuc],
+                                            train_years=TRAIN_YEARS,
+                                            val_years=VAL_YEARS,
+                                            test_years=TEST_YEARS,
+                                            seq_length=seq_length)
+
+buckets_for_training = list(bucket_dictionary.keys())
+buckets_for_val      = list(bucket_dictionary.keys())
+buckets_for_test     = list(bucket_dictionary.keys())
+
+print("Basins:", buckets_for_training)
+for ibuc in buckets_for_training:
+    tr = date_splits[ibuc]["train"]; va = date_splits[ibuc]["val"]; te = date_splits[ibuc]["test"]
+    print(f"ibuc={ibuc} Train[{tr[0]},{tr[1]}]  Val[{va[0]},{va[1]}]  Test[{te[0]},{te[1]}]")
+
+# ============================================================
+# MODELS (with dropout)
+# ============================================================
+class LSTMOriginal(nn.Module):
+    """Stateless LSTM with dropout (internal + external)."""
+    def __init__(self, num_classes, input_size, hidden_size, num_layers, dropout_p=0.3):
+        super().__init__()
+        self.lstm = nn.LSTM(
+            input_size=input_size,
+            hidden_size=hidden_size,
+            num_layers=num_layers,
+            batch_first=True,
+            dropout=dropout_p
+        )
+        self.dropout = nn.Dropout(p=dropout_p)
+        self.fc = nn.Linear(hidden_size, num_classes)
+
+    def forward(self, x, init_states=None):
+        if init_states is None:
+            B = x.size(0)
+            h0 = torch.zeros(self.lstm.num_layers, B, self.lstm.hidden_size, device=x.device)
+            c0 = torch.zeros(self.lstm.num_layers, B, self.lstm.hidden_size, device=x.device)
+            init_states = (h0, c0)
+        out, _ = self.lstm(x, init_states)   # [B, T, H]
+        out = self.dropout(out)              # external dropout
+        pred = self.fc(out)                  # [B, T, C]
+        return pred
+
+class LSTMPersistent(nn.Module):
+    """Stateful LSTM with dropout (internal + external)."""
+    def __init__(self, num_classes, input_size, hidden_size, num_layers, dropout_p=0.3):
+        super().__init__()
+        self.lstm = nn.LSTM(
+            input_size=input_size,
+            hidden_size=hidden_size,
+            num_layers=num_layers,
+            batch_first=True,
+            dropout=dropout_p
+        )
+        self.dropout = nn.Dropout(p=dropout_p)
+        self.fc = nn.Linear(hidden_size, num_classes)
+        self.hidden = None
+
+    def forward(self, x, init_states=None):
+        if init_states is not None:
+            self.hidden = init_states
+        out, self.hidden = self.lstm(x, self.hidden)
+        out = self.dropout(out)
+        pred = self.fc(out)
+        return pred
+
+    def init_hidden(self, batch_size=1, device='cpu'):
+        H, L = self.lstm.hidden_size, self.lstm.num_layers
+        self.hidden = (
+            torch.zeros(L, batch_size, H, device=device),
+            torch.zeros(L, batch_size, H, device=device),
+        )
+
+    def detach_hidden(self):
+        if self.hidden is not None:
+            self.hidden = (self.hidden[0].detach(), self.hidden[1].detach())
+
+    def reset_hidden(self):
+        self.hidden = None
+
+# ----------------------------
+# Scalers (fit on TRAIN of all basins)
+# ----------------------------
+def fit_scaler_multi():
+    frames_in, frames_out = [], []
+    for ibuc in buckets_for_training:
+        s,e = date_splits[ibuc]["train"]
+        df = bucket_dictionary[ibuc]
+        frames_in.append(df.loc[s:e, input_vars])
+        frames_out.append(df.loc[s:e, output_vars])
+    df_in  = pd.concat(frames_in,  axis=0)
+    df_out = pd.concat(frames_out, axis=0)
+    scaler_in  = StandardScaler().fit(df_in)
+    scaler_out = StandardScaler().fit(df_out)
+    return scaler_in, scaler_out
+
+scaler_in, scaler_out = fit_scaler_multi()
+
+def _denorm_from_scaler(x_std):
+    # for output_vars[0]
+    mu = float(scaler_out.mean_[0])
+    sd = float(scaler_out.scale_[0])  # StandardScaler stores std in 'scale_'
+    return max(x_std * sd + mu, 0.0)
+
+# ============================================================
+# Windowed datasets + loaders
+# ============================================================
+def make_window_arrays(df, start_idx, end_idx, seq_length):
+    """Return X,Y arrays with stride=1 window starts (for maximum flexibility)."""
+    end_idx = min(end_idx, len(df) - 1)
+    start_idx = min(start_idx, end_idx)
+    Xin = scaler_in.transform(df.loc[start_idx:end_idx, input_vars])
+    Yin = scaler_out.transform(df.loc[start_idx:end_idx, output_vars])
+
+    n_total = Xin.shape[0]
+    if n_total < seq_length:
+        raise ValueError(f"Slice too short: n_total={n_total}, seq_length={seq_length}")
+
+    n_samples = n_total - seq_length + 1
+    X = np.zeros((n_samples, seq_length, n_input), dtype=np.float32)
+    Y = np.zeros((n_samples, seq_length, n_output), dtype=np.float32)
+    for i in range(n_samples):
+        t0 = i + seq_length
+        X[i] = Xin[i:t0]
+        Y[i] = Yin[i:t0]
+    return X, Y
+
+class SequentialBatchSampler(Sampler):
+    """Sequential block sampler (stateless path)."""
+    def __init__(self, n_samples: int, batch_size: int, seq_length: int):
+        self.n_samples = n_samples
+        self.batch_size = batch_size
+        self.seq_length = seq_length
+        self.num_batches = n_samples // batch_size
+
+    def __iter__(self):
+        for i in range(self.num_batches):
+            start = i * self.batch_size
+            yield list(range(start, start + self.batch_size))
+
+    def __len__(self):
+        return self.num_batches
+
+class SlotPreservingChunkSampler(Sampler):
+    """
+    Batch 0: [0..L-1], [1..L], [2..L+1], ...
+    Batch 1: [+L .. +2L-1], ...
+    """
+    def __init__(self, n_samples: int, batch_size: int, seq_length: int):
+        assert n_samples >= batch_size, "Need at least batch_size samples"
+        self.n = n_samples
+        self.B = batch_size
+        self.L = seq_length
+        self.T = (n_samples - batch_size) // seq_length + 1  # include last valid step
+
+    def __iter__(self):
+        for t in range(self.T):
+            base = t * self.L
+            yield list(range(base, base + self.B))
+
+    def __len__(self):
+        return self.T
+
+def make_stateless_loader(start, end, ibuc_list, batch_size):
+    loader = {}
+    arraysX, arraysY = {}, {}
+    for ibuc in ibuc_list:
+        df = bucket_dictionary[ibuc]
+        X, Y = make_window_arrays(df, start, end, seq_length)
+        arraysX[ibuc], arraysY[ibuc] = X, Y
+        ds = TensorDataset(torch.from_numpy(X), torch.from_numpy(Y))
+        loader[ibuc] = DataLoader(ds, batch_size=batch_size, shuffle=False, drop_last=True)
+    return loader, arraysX, arraysY
+
+def make_persistent_loader(start, end, ibuc_list, batch_size):
+    loader = {}
+    arraysX, arraysY = {}, {}
+    for ibuc in ibuc_list:
+        df = bucket_dictionary[ibuc]
+        X, Y = make_window_arrays(df, start, end, seq_length)
+        arraysX[ibuc], arraysY[ibuc] = X, Y
+        ds = TensorDataset(torch.from_numpy(X), torch.from_numpy(Y))
+        sampler = SlotPreservingChunkSampler(
+            n_samples=X.shape[0], batch_size=batch_size, seq_length=seq_length
+        )
+        loader[ibuc] = DataLoader(ds, batch_sampler=sampler)
+    return loader, arraysX, arraysY
+
+def build_all_loaders():
+    train_loader_std, val_loader_std, test_loader_std = {}, {}, {}
+    train_loader_pers, val_loader_pers, test_loader_pers = {}, {}, {}
+    np_train_seq_X, np_val_seq_X, np_test_seq_X = {}, {}, {}
+    np_train_seq_y, np_val_seq_y, np_test_seq_y = {}, {}, {}
+
+    for ibuc in bucket_dictionary:
+        s_tr,e_tr = date_splits[ibuc]["train"]
+        s_va,e_va = date_splits[ibuc]["val"]
+        s_te,e_te = date_splits[ibuc]["test"]
+
+        # stateless
+        ld, X, Y = make_stateless_loader(s_tr, e_tr, [ibuc], batch_size_stateless)
+        train_loader_std[ibuc] = ld[ibuc]; np_train_seq_X[ibuc]=X[ibuc]; np_train_seq_y[ibuc]=Y[ibuc]
+        ld, X, Y = make_stateless_loader(s_va, e_va, [ibuc], batch_size_stateless)
+        val_loader_std[ibuc]   = ld[ibuc]; np_val_seq_X[ibuc]=X[ibuc];   np_val_seq_y[ibuc]=Y[ibuc]
+        ld, X, Y = make_stateless_loader(s_te, e_te, [ibuc], batch_size_stateless)
+        test_loader_std[ibuc]  = ld[ibuc]; np_test_seq_X[ibuc]=X[ibuc];  np_test_seq_y[ibuc]=Y[ibuc]
+
+        # persistent
+        ld, _, _ = make_persistent_loader(s_tr, e_tr, [ibuc], batch_size_persistent)
+        train_loader_pers[ibuc] = ld[ibuc]
+        ld, _, _ = make_persistent_loader(s_va, e_va, [ibuc], batch_size_persistent)
+        val_loader_pers[ibuc] = ld[ibuc]
+        ld, _, _ = make_persistent_loader(s_te, e_te, [ibuc], batch_size_persistent)
+        test_loader_pers[ibuc] = ld[ibuc]
+
+    return (train_loader_std, val_loader_std, test_loader_std,
+            train_loader_pers, val_loader_pers, test_loader_pers,
+            np_train_seq_X, np_val_seq_X, np_test_seq_X,
+            np_train_seq_y, np_val_seq_y, np_test_seq_y)
+
+# Build loaders for all basins
+(train_loader_std, val_loader_std, test_loader_std,
+ train_loader_pers, val_loader_pers, test_loader_pers,
+ np_train_seq_X, np_val_seq_X, np_test_seq_X,
+ np_train_seq_y, np_val_seq_y, np_test_seq_y) = build_all_loaders()
+
+# ============================================================
+# Training
+# ============================================================
+def train_original_model(lstm, train_loader, buckets_for_training):
+    lstm.train()
+    criterion = nn.MSELoss()
+    optimizer = optim.Adam(lstm.parameters(), lr=float(learning_rate[0]), weight_decay=1e-5)
+    results = {ibuc: {"loss": [], "RMSE": []} for ibuc in buckets_for_training}
+
+    for epoch in range(num_epochs):
+        for g in optimizer.param_groups:
+            g['lr'] = float(learning_rate[epoch])
+
+        epoch_losses = []
+        for ibuc in buckets_for_training:
+            for data, targets in train_loader[ibuc]:
+                data, targets = data.to(device), targets.to(device)
+                optimizer.zero_grad()
+                out = lstm(data)
+                preds = out[:, -k_preds:, :]
+                true  = targets[:, -k_preds:, :]
+                loss = criterion(preds, true)
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(lstm.parameters(), 1.0)
+                optimizer.step()
+                epoch_losses.append(loss.item())
+
+        mean_loss = float(np.mean(epoch_losses)) if epoch_losses else 0.0
+        mean_rmse = float(np.sqrt(mean_loss))
+        if epoch % 2 == 0:
+            print(f"[Original] Epoch {epoch:02d} | lr={optimizer.param_groups[0]['lr']:.6f} | loss={mean_loss:.4f} | RMSE={mean_rmse:.4f}")
+
+        for ibuc in buckets_for_training:
+            results[ibuc]["loss"].append(mean_loss)
+            results[ibuc]["RMSE"].append(mean_rmse)
+
+    return lstm, results
+
+def train_persistent_model(model, train_loader, buckets_for_training, batch_size):
+    """
+    Persistent training:
+    - Slot-preserving sampler (step = seq_length).
+    - Loss on ALL time steps in each batch.
+    - After each batch: step() then detach hidden (no cross-batch backprop).
+    """
+    model.train()
+    optimizer = optim.Adam(model.parameters(), lr=float(learning_rate[0]), weight_decay=1e-5)
+    criterion_all = nn.MSELoss(reduction="mean")
+    epoch_losses = []
+
+    for epoch in range(num_epochs):
+        for g in optimizer.param_groups:
+            g['lr'] = float(learning_rate[epoch])
+
+        losses = []
+        for ibuc in buckets_for_training:
+            model.reset_hidden()
+            for data, targets in train_loader[ibuc]:
+                data, targets = data.to(device), targets.to(device)
+
+                if model.hidden is None:
+                    model.init_hidden(batch_size=data.size(0), device=device)
+
+                optimizer.zero_grad()
+                out = model(data)                 # [B, L, C]
+                loss = criterion_all(out, targets)
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                optimizer.step()
+                model.detach_hidden()
+                losses.append(loss.item())
+
+        mean_loss = float(np.mean(losses)) if losses else 0.0
+        mean_rmse = float(np.sqrt(mean_loss))
+        if epoch % 2 == 0:
+            print(f"[Persistent] Epoch {epoch:02d} | lr={optimizer.param_groups[0]['lr']:.6f} | loss={mean_loss:.4f} | RMSE={mean_rmse:.4f}")
+        epoch_losses.append(mean_loss)
+
+    results = {ibuc: {"loss": epoch_losses, "RMSE": [float(np.sqrt(l)) for l in epoch_losses]}
+               for ibuc in buckets_for_training}
+    return model, results
+
+# ============================================================
+# Evaluation helpers & plotting
+# ============================================================
+def compute_nse(pred, obs):
+    pred = np.asarray(pred).ravel()
+    obs  = np.asarray(obs).ravel()
+    denom = np.sum((obs - np.mean(obs))**2)
+    if denom == 0:
+        return -999.0
+    return 1.0 - np.sum((obs - pred)**2) / denom
+
+def predict_block_original(lstm_original, np_seq_X_dict, ibuc):
+    """Stateless predictions (dense). Returns list of last-step per window."""
+    lstm_original.eval()
+    X = torch.tensor(np_seq_X_dict[ibuc], dtype=torch.float32, device=device)  # [N, L, F]
+    with torch.no_grad():
+        out = lstm_original(X)               # [N, L, C]
+        last = out[:, -1, :]                 # [N, C]
+    preds = [_denorm_from_scaler(float(last[i, 0].cpu().numpy())) for i in range(last.shape[0])]
+    return preds
+
+def predict_block_persistent(lstm_persistent, np_seq_X_dict, ibuc, batch_size, base_idx, df):
+    """
+    Stateful predictions (slot-preserving, step=L). Returns (obs_indices, preds).
+    obs_indices are absolute df indices: base_idx + start + (seq_length - 1)
+    """
+    lstm_persistent.eval()
+    Xfull = torch.tensor(np_seq_X_dict[ibuc], dtype=torch.float32, device=device)  # [N, L, F]
+    preds_idx, preds_val = [], []
+
+    sampler = SlotPreservingChunkSampler(
+        n_samples=Xfull.size(0),
+        batch_size=batch_size,
+        seq_length=seq_length
+    )
+    lstm_persistent.reset_hidden()
+    with torch.no_grad():
+        for idx_batch in sampler:
+            x = Xfull[idx_batch]
+            if lstm_persistent.hidden is None:
+                lstm_persistent.init_hidden(batch_size=x.size(0), device=device)
+            out = lstm_persistent(x)   # [B, L, C]
+            last = out[:, -1, :]       # [B, C]
+            for b, start_idx in enumerate(idx_batch):
+                obs_index = int(base_idx) + int(start_idx) + (seq_length - 1)
+                preds_idx.append(obs_index)
+                preds_val.append(_denorm_from_scaler(float(last[b, 0].cpu().numpy())))
+            lstm_persistent.detach_hidden()
+    return preds_idx, preds_val
+
+def obs_dense_for(df, start_idx, end_idx, n_preds, var):
+    t0 = start_idx + (seq_length - 1)
+    t1 = min(t0 + n_preds - 1, end_idx)
+    obs = df.loc[t0:t1, var].values
+    dates = df.loc[t0:t1, "date"].values
+    return obs, dates
+
+def nse_sparse(idx_list, preds_list, df, s, e, var):
+    keep = [i for i in idx_list if (s + (seq_length - 1)) <= i <= e]
+    if not keep:
+        return np.nan
+    m = {i: v for i, v in zip(idx_list, preds_list)}
+    obs = [df.loc[i, var] for i in sorted(set(keep))]
+    prd = [m[i] for i in sorted(set(keep))]
+    return compute_nse(prd, obs)
+
+def eval_all_basins(lstm_o, lstm_p):
+    per_basin = {}
+    for ibuc in bucket_dictionary:
+        df = bucket_dictionary[ibuc]
+        s_tr,e_tr = date_splits[ibuc]["train"]
+        s_va,e_va = date_splits[ibuc]["val"]
+        s_te,e_te = date_splits[ibuc]["test"]
+
+        # Original (dense)
+        o_tr = predict_block_original(lstm_o, np_train_seq_X, ibuc)
+        o_va = predict_block_original(lstm_o, np_val_seq_X,   ibuc)
+        o_te = predict_block_original(lstm_o, np_test_seq_X,  ibuc)
+        obs_tr,_ = obs_dense_for(df, s_tr, e_tr, len(o_tr), output_vars[0])
+        obs_va,_ = obs_dense_for(df, s_va, e_va, len(o_va), output_vars[0])
+        obs_te,_ = obs_dense_for(df, s_te, e_te, len(o_te), output_vars[0])
+        nse_o_tr = compute_nse(o_tr[:len(obs_tr)], obs_tr)
+        nse_o_va = compute_nse(o_va[:len(obs_va)], obs_va)
+        nse_o_te = compute_nse(o_te[:len(obs_te)], obs_te)
+
+        # Persistent (sparse last-only)
+        idx_tr, p_tr = predict_block_persistent(lstm_p, np_train_seq_X, ibuc, batch_size_persistent, base_idx=s_tr, df=df)
+        idx_va, p_va = predict_block_persistent(lstm_p, np_val_seq_X,   ibuc, batch_size_persistent, base_idx=s_va, df=df)
+        idx_te, p_te = predict_block_persistent(lstm_p, np_test_seq_X,  ibuc, batch_size_persistent, base_idx=s_te, df=df)
+        nse_p_tr = nse_sparse(idx_tr, p_tr, df, s_tr, e_tr, output_vars[0])
+        nse_p_va = nse_sparse(idx_va, p_va, df, s_va, e_va, output_vars[0])
+        nse_p_te = nse_sparse(idx_te, p_te, df, s_te, e_te, output_vars[0])
+
+        per_basin[ibuc] = dict(orig=(nse_o_tr, nse_o_va, nse_o_te),
+                               pers=(nse_p_tr, nse_p_va, nse_p_te))
+
+    arr_o = np.array([per_basin[i]["orig"] for i in per_basin], dtype=float)
+    arr_p = np.array([per_basin[i]["pers"] for i in per_basin], dtype=float)
+    avg_orig = np.nanmean(arr_o, axis=0)  # (train,val,test)
+    avg_pers = np.nanmean(arr_p, axis=0)
+    return per_basin, avg_orig, avg_pers
+
+def plot_train_val_test_subplots_for(ibuc, lstm_original, lstm_persistent, var=target_col):
+    """Plot for a single basin id (default ibuc=0)."""
+    df = bucket_dictionary[ibuc]
+    s_tr,e_tr = date_splits[ibuc]["train"]
+    s_va,e_va = date_splits[ibuc]["val"]
+    s_te,e_te = date_splits[ibuc]["test"]
+
+    # Dense (original) predictions
+    orig_train = predict_block_original(lstm_original, np_train_seq_X, ibuc)
+    orig_val   = predict_block_original(lstm_original, np_val_seq_X,   ibuc)
+    orig_test  = predict_block_original(lstm_original, np_test_seq_X,  ibuc)
+
+    # Persistent predictions with absolute indices (slot-preserving, step=L)
+    idx_p_tr, pers_train = predict_block_persistent(lstm_persistent, np_train_seq_X, ibuc, batch_size_persistent, base_idx=s_tr, df=df)
+    idx_p_va, pers_val   = predict_block_persistent(lstm_persistent, np_val_seq_X,   ibuc, batch_size_persistent, base_idx=s_va, df=df)
+    idx_p_te, pers_test  = predict_block_persistent(lstm_persistent, np_test_seq_X,  ibuc, batch_size_persistent, base_idx=s_te, df=df)
+
+    # Helper: observations aligned to dense (original) coverage
+    def obs_dense(start_idx, end_idx, n_preds):
+        t0 = start_idx + (seq_length - 1)
+        t1 = min(t0 + n_preds - 1, end_idx)
+        obs = df.loc[t0:t1, var].values
+        dates = df.loc[t0:t1, "date"].values
+        return obs, dates, t0, t1
+
+    obs_tr, dates_tr, _, _ = obs_dense(s_tr, e_tr, len(orig_train))
+    obs_va, dates_va, _, _ = obs_dense(s_va, e_va, len(orig_val))
+    obs_te, dates_te, _, _ = obs_dense(s_te, e_te, len(orig_test))
+
+    # NSE values
+    NSE = lambda p, o: compute_nse(p[:len(o)], o)
+    nse_o_tr, nse_o_va, nse_o_te = NSE(orig_train, obs_tr), NSE(orig_val, obs_va), NSE(orig_test, obs_te)
+
+    def nse_sparse_local(idx_list, preds_list, start_idx, end_idx):
+        keep = [i for i in idx_list if (start_idx + (seq_length - 1)) <= i <= end_idx]
+        if not keep:
+            return np.nan
+        m = {i: v for i, v in zip(idx_list, preds_list)}
+        obs = [df.loc[i, var] for i in sorted(set(keep))]
+        prd = [m[i]           for i in sorted(set(keep))]
+        return compute_nse(prd, obs)
+
+    nse_p_tr = nse_sparse_local(idx_p_tr, pers_train, s_tr, e_tr)
+    nse_p_va = nse_sparse_local(idx_p_va, pers_val,   s_va, e_va)
+    nse_p_te = nse_sparse_local(idx_p_te, pers_test,  s_te, e_te)
+
+    # --- 3 subplots (dotted predictions) ---
+    fig, axes = plt.subplots(3, 1, figsize=(14, 10), sharex=False)
+    panels = [
+        ("Train", dates_tr, obs_tr, orig_train, (pd.to_datetime(df.loc[idx_p_tr, "date"]).values, pers_train), nse_o_tr, nse_p_tr),
+        ("Val",   dates_va, obs_va, orig_val,   (pd.to_datetime(df.loc[idx_p_va, "date"]).values, pers_val),   nse_o_va, nse_p_va),
+        ("Test",  dates_te, obs_te, orig_test,  (pd.to_datetime(df.loc[idx_p_te, "date"]).values, pers_test),  nse_o_te, nse_p_te),
+    ]
+    for ax, (name, dates, obs, orig_pred, (p_dates, p_pred), nse_o, nse_p) in zip(axes, panels):
+        ax.plot(dates, obs, '-', linewidth=1.2, color='k', label=f'Actual ({name})')
+        ax.plot(dates, orig_pred[:len(dates)], ':', linewidth=1.4, label=f'Original {name} NSE={nse_o:.3f}')
+        ax.plot(p_dates, p_pred, ':', linewidth=1.4, label=f'Persistent {name} NSE={np.nan if nse_p is None else nse_p:.3f}')
+        ax.set_ylabel(var)
+        ax.set_title(f'ibuc={ibuc} — {name} Segment')
+        ax.grid(True, alpha=0.3)
+        ax.legend()
+    axes[-1].set_xlabel('Time')
+    fig.suptitle(f'{var} — Last 20 Years | Train(15y)/Val(4y)/Test(1y)', y=0.98)
+    plt.tight_layout()
+    plt.show()
+
+# ----------------------------
+# Main execution
+# ----------------------------
+torch.manual_seed(1)
+
+lstm_original = LSTMOriginal(
+    num_classes=n_output,
+    input_size=n_input,
+    hidden_size=hidden_state_size,
+    num_layers=num_layers,
+    dropout_p=DROPOUT_P
+).to(device)
+
+lstm_persistent = LSTMPersistent(
+    num_classes=n_output,
+    input_size=n_input,
+    hidden_size=hidden_state_size,
+    num_layers=num_layers,
+    dropout_p=DROPOUT_P
+).to(device)
+
+print("\n" + "="*60)
+print("TRAINING ORIGINAL (STATELESS) LSTM")
+print("="*60)
+lstm_original, _ = train_original_model(lstm_original, train_loader_std, buckets_for_training)
+
+print("\n" + "="*60)
+print("TRAINING PERSISTENT (STATEFUL) LSTM — slot-preserving, step=L, all-steps loss")
+print("="*60)
+lstm_persistent, _ = train_persistent_model(
+    lstm_persistent, train_loader_pers, buckets_for_training, batch_size_persistent
+)
+
+# -------- EVALUATION: per-basin + macro-average --------
+per_basin, avg_orig, avg_pers = eval_all_basins(lstm_original, lstm_persistent)
+print("\nPer-basin NSE (train, val, test):")
+for i in sorted(per_basin):
+    print(f"ibuc {i}: Original {per_basin[i]['orig']},  Persistent {per_basin[i]['pers']}")
+print("\nMacro-average NSE (Original)  Train/Val/Test:", avg_orig)
+print("Macro-average NSE (Persistent) Train/Val/Test:", avg_pers)
+
+# -------- PLOT: choose a basin to visualize (default 0) --------
+print("\nPlotting basin ibuc=0 …")
+plot_train_val_test_subplots_for(ibuc=0, lstm_original=lstm_original, lstm_persistent=lstm_persistent, var=output_vars[0])
